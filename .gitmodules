@@ -1,0 +1,3 @@
+[submodule "Neural Inertial Localization/tinyodom"]
+	path = Neural Inertial Localization/tinyodom
+	url = https://github.com/nesl/tinyodom.git
