@@ -1,3 +1,6 @@
 [submodule "Neural Inertial Localization/tinyodom"]
 	path = Neural Inertial Localization/tinyodom
 	url = https://github.com/nesl/tinyodom.git
+[submodule "Human Activity Recognition/auritus"]
+	path = Human Activity Recognition/auritus
+	url = https://github.com/nesl/auritus.git
