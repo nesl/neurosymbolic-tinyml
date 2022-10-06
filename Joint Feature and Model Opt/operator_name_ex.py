@@ -9,7 +9,7 @@ from tensorflow.lite.python import schema_py_generated as schema_fb
 import tensorflow.compat.v1.keras.backend as K
 import re
 
-AVAILABLE_TFLM_OPS = {
+AVAILABLE_TFLM_OPS = [
   'AddAbs()',
   'AddAdd()',
   'AddAddN()',
@@ -78,7 +78,7 @@ AVAILABLE_TFLM_OPS = {
   'AddTanh()',
   'AddTransposeConv()',
   'AddUnpack()',
-}
+]
 
 
 BUILTIN_OPCODE2NAME = {

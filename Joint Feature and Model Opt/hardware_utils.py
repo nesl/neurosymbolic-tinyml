@@ -9,9 +9,6 @@ import tensorflow as tf
 import tensorflow.compat.v1.keras.backend as K
 import argparse
 
-import get_dataset as kws_data
-import kws_util
-
 
 device_list = ["NUCLEO_F746ZG","NUCLEO_L476RG", "NUCLEO_F446RE", "ARCH_MAX", "NUCLEO_L4R5ZI_P", "ISPU_ST"]
 maxRAM_list = [280000, 80000,80000,180000,600000, 8000]
@@ -90,7 +87,7 @@ def convert_to_cpp(model,model_name):
         my_f.write(item)
     my_f.close()
         
-def platform_in_the_loop_controller(model, model_name, hardware,num_feat,window_size, sampling_rate,feat_mask  mask,dir_path='FeatNN_Mbed_Prog/'):
+def platform_in_the_loop_controller(model, model_name, hardware,num_feat,window_size, sampling_rate,feat_mask,dir_path='FeatNN_Mbed_Prog/'):
     err_flag = 0
     RAM = -1
     Flash = -1
@@ -105,7 +102,7 @@ def platform_in_the_loop_controller(model, model_name, hardware,num_feat,window_
         with open('featnn_model_settings.h') as f:
             z = f.readlines()
         f.close() 
-        z[z.index([i for i in z if 'int feat_mask[12]' in i][0])] = 'int feat_mask[12] = +'feat_mask+';\n'
+        z[z.index([i for i in z if 'int feat_mask[12]' in i][0])] = 'int feat_mask[12] = '+feat_mask+';\n'
         z[z.index([i for i in z if 'kKwsInputSize' in i][0])] = re.sub('\d+', str(window_size), z[z.index([i for i in z if 'kKwsInputSize' in i][0])])
         z[z.index([i for i in z if 'kModelInputSize' in i][0])] = re.sub('\d+', str(num_feat), z[z.index([i for i in z if 'kModelInputSize' in i][0])])
         z[z.index([i for i in z if 'sampling_rate' in i][0])] = re.sub('\d+', str(sampling_rate), z[z.index([i for i in z if 'sampling_rate' in i][0])]) 

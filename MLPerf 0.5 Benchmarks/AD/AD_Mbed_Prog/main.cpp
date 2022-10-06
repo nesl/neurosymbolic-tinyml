@@ -51,8 +51,8 @@ int main(int argc, char* argv[]) {
   micro_op_resolver.AddAdd();
   micro_op_resolver.AddRelu();
   micro_op_resolver.AddExpandDims();
-  micro_op_resolver.AddSpaceToBatchNd();
-  micro_op_resolver.AddBatchToSpaceNd();
+  micro_op_resolver.AddSqueeze();
+  micro_op_resolver.AddConcatenation();
   micro_op_resolver.AddFullyConnected();
   micro_op_resolver.AddSoftmax();
   micro_op_resolver.AddQuantize();
