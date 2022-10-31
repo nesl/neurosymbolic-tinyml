@@ -4,3 +4,6 @@
 [submodule "Human Activity Recognition/auritus"]
 	path = Human Activity Recognition/auritus
 	url = https://github.com/nesl/auritus.git
+[submodule "Neural Kalman Sensor Fusion/agrobot"]
+	path = Neural Kalman Sensor Fusion/agrobot
+	url = https://github.com/nesl/agrobot
