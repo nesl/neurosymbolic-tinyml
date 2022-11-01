@@ -18,7 +18,7 @@ Machine learning at the extreme edge has enabled a plethora of intelligent, time
 
 - A GPU Workstation running Ubuntu 20.04.
 - Python 3.8+ must be installed, preferably through Anaconda or Virtualenv, https://docs.conda.io/en/latest/, https://virtualenv.pypa.io/en/latest/
-- Python package requirements are listed in requirements.txt under each code folder. Please install them before running the Python scripts. Note that Tensorflow 2.5.0 is a must. Tensorflow 1.x would not work.
+- Python package requirements for the virtual environment we used are listed in requirements.txt. Please install them before running the Python scripts. Note that Tensorflow 2.5.0 is a must. Tensorflow 1.x would not work.
 - Couple of STM32 Nucleo Boards (must be Mbed enabled) for platform-in-the-loop NAS, https://www.st.com/en/evaluation-tools/stm32-nucleo-boards.html, https://os.mbed.com/platforms/
 - GNU ARM Embedded Toolchain (for Mbed CLI), https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/gnu-rm
 - C/C++ compiler for Mbed CLI and conversion of TinyML models to C (your computer will generally come with one).
