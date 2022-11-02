@@ -8,7 +8,7 @@ Machine learning at the extreme edge has enabled a plethora of intelligent, time
 - ```MLPerf 0.5 Benchmarks```: Runs 3 of the 4 MLPerf Tiny v0.5 Inference Benchmarks, reference: https://github.com/mlcommons/tiny .
 - ```Joint Feature and Model Opt```: Contains code for neurosymbolic optimization of features and neural weights.
 - ```Human Activity Recognition```: Contains link to repository for earable fall detection under 2 kB and activity recognition (https://github.com/nesl/auritus).
-- ```Joint Tracker and Obj Det Opt```: Contains code for optimization of neural detector weights and symbolic object tracker.
+- ```NAS Detection and Tracking```: Contains code for optimization of neural detector weights and symbolic object tracker based on ByteTrack library, reference: https://github.com/ifzhang/ByteTrack 
 - ```Adversarially Robust NAS```: Contains code for improving adversarial robustness of TinyML models.
 - ```Neural Inertial Localization```: Contains link to repository for physics-aware neural inertial localization (https://github.com/nesl/tinyodom).
 - ```Neural Kalman Sensor Fusion```: Contains link to repository for neural-Kalman sensor fusion (https://github.com/nesl/agrobot).
