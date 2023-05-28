@@ -1,8 +1,10 @@
-# Tiny-NS: Platform-Aware Neurosymbolic AutoML for TinyML
+# Tiny-NS: Platform-Aware Neurosymbolic Auto Tiny Machine Learning
 
 Example of Tiny-NS in action for Symbolic Neuro Symbolic paradigm:
 ![tiny-ns example](parser.png)
 
+## Paper
+https://www.researchgate.net/publication/371119867_TinyNS_Platform-Aware_Neurosymbolic_Auto_Tiny_Machine_Learning
 
 ## Summary
 
@@ -29,4 +31,4 @@ Machine learning at the extreme edge has enabled a plethora of intelligent, time
 
 ## Citation
 
-Swapnil Sayan Saha, Sandeep Singh Sandha, Mohit Aggarwal, Brian Wang, Liying Han, Julian de Gortari Briseno, and Mani Srivastava, "Tiny-NS: Platform-Aware Neurosymbolic AutoML for TinyML", 2022. (under review at ACM Transactions on Embedded Computing Systems).
+Swapnil Sayan Saha, Sandeep Singh Sandha, Mohit Aggarwal, Brian Wang, Liying Han, Julian de Gortari Briseno, and Mani Srivastava, "Tiny-NS: Platform-Aware Neurosymbolic AutoML for TinyML", in ACM Transactions on Embedded Computing Systems, 2023.
