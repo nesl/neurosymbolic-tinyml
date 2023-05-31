@@ -4,7 +4,7 @@ Example of Tiny-NS in action for Symbolic Neuro Symbolic paradigm:
 ![tiny-ns example](parser.png)
 
 ## Paper
-https://www.researchgate.net/publication/371119867_TinyNS_Platform-Aware_Neurosymbolic_Auto_Tiny_Machine_Learning
+https://dl.acm.org/doi/10.1145/3603171
 
 ## Summary
 
@@ -31,11 +31,10 @@ Machine learning at the extreme edge has enabled a plethora of intelligent, time
 
 ## Citation
 
-Swapnil Sayan Saha, Sandeep Singh Sandha, Mohit Aggarwal, Brian Wang, Liying Han, Julian de Gortari Briseno, and Mani Srivastava, "Tiny-NS: Platform-Aware Neurosymbolic AutoML for TinyML", in ACM Transactions on Embedded Computing Systems, 2023.
+Swapnil Sayan Saha, Sandeep Singh Sandha, Mohit Aggarwal, Brian Wang, Liying Han, Julian de Gortari Briseno, and Mani Srivastava, "TinyNS: Platform-Aware Neurosymbolic Auto Tiny Machine Learning", in ACM Transactions on Embedded Computing Systems, 2023.
 
 ## Acknowledgements
 
 The research reported in this paper was sponsored in part by the Air Force Office of Scientific Research (AFOSR) under Cooperative Agreement FA9550-22-1-0193; the IoBT REIGN Collaborative Research Alliance funded by the Army Research Laboratory (ARL) under Cooperative Agreement W911NF-17-2-0196; 
 the NIH mHealth Center for Discovery, Optimization and Translation of Temporally-Precise Interventions (mDOT) under award 1P41EB028242; 
-the National Science Foundation (NSF) under awards # 1705135 and 1822935. 
-and, the CONIX Research Center, one of six centers in JUMP, a Semiconductor Research Corporation (SRC) program sponsored by DARPA. The views and conclusions contained in this document are those of the authors and should not be interpreted as representing the official policies, either expressed or implied, of the AFOSR, ARL, DARPA, NIH, NSF, SRC, or the U.S. Government. The U.S. Government is authorized to reproduce and distribute reprints for Government purposes notwithstanding any copyright notation here on.
+the National Science Foundation (NSF) under awards # 1705135 and 1822935; and, the CONIX Research Center, one of six centers in JUMP, a Semiconductor Research Corporation (SRC) program sponsored by DARPA. The views and conclusions contained in this document are those of the authors and should not be interpreted as representing the official policies, either expressed or implied, of the AFOSR, ARL, DARPA, NIH, NSF, SRC, or the U.S. Government. The U.S. Government is authorized to reproduce and distribute reprints for Government purposes notwithstanding any copyright notation here on.
