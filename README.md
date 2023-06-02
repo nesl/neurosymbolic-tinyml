@@ -1,6 +1,6 @@
 # Tiny-NS: Platform-Aware Neurosymbolic Auto Tiny Machine Learning
 
-Example of Tiny-NS in action for Symbolic Neuro Symbolic paradigm:
+Example of TinyNS in action for Symbolic Neuro Symbolic paradigm:
 ![tiny-ns example](parser.png)
 
 ## Paper
